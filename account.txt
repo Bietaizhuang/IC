@@ -1,0 +1,2 @@
+miy@kean.edu,ethan123,student,cps
+ethan@kean.edu,ethan123,instructor

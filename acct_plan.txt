@@ -1,0 +1,33 @@
+Year 1:
+MATH 2400: Calculus for Business and Economics
+CPS 1032: Microcomputer Applications
+ECON 1021: Principles of Economics II
+ENG 1300: English Composition I
+ENG 1430: English Composition II
+Year 2:
+ECON 1020: Principles of Economics I
+ACCT 2200: Principles of Accounting I
+ACCT 2210: Principles of Accounting II
+BLAW 2051: Business Law I
+COMM 1402: Speech and Communication
+FIN 3310: Corporate Finance I
+MGS 2030: Principles of Management
+MGS 2150: Business Statistics
+MGS 3520: Business Ethics and Social Responsibility
+Year 3:
+ACCT 3210: Intermediate Accounting I
+ACCT 3220: Intermediate Accounting II
+ACCT 3230: Federal Income Tax I
+ACCT 3231: Federal Income Tax II
+FIN 3320: Financial Statement Analysis
+MKT 2500: Principles of Marketing
+MGS 3040: Management Information Systems
+Year 4:
+FIN 3311: Corporate Finance II
+ACCT 3240: Cost Accounting
+ACCT 4998: Senior Thesis
+ACCT 4210: Advanced Accounting
+ACCT 4245: Accounting Information System
+ACCT 4990: Auditing
+MGS 3100: Operations Management
+MGS 4999: Integrative Business Strategy
