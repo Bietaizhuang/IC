@@ -18,10 +18,10 @@ Recall         = # good(plan) / # (plan minus taken)
 Bootstrap (BOOT_ITER) is used to derive 95 % CI for mean PlanScore / PersonalScore.
 """
 
-BOOT_ITER = 1000          # bootstrap iterations for confidence interval
-LOW_GRADE_THRESHOLD = "B-"  # grades <= this are considered "low"
+BOOT_ITER = 3000          # bootstrap iterations for confidence interval
+LOW_GRADE_THRESHOLD = "B-"  # grades <= this is considered "low"
 
-import re, csv, time, difflib, pathlib, random, statistics, requests
+import re, csv, time, difflib, pathlib, random, statistics, requests, json
 from course_manager import CourseManager
 
 # ---------- CONFIG ----------
@@ -30,7 +30,7 @@ QUESTION_FILE = "evaluation_questions.txt"
 OUT_CSV       = "relevance_scores.csv"
 MODEL_NAME    = "deepseek-r1:1.5b"
 OLLAMA_URL    = "http://localhost:11434"
-STREAM_MODEL  = False      # set True to enable streaming
+STREAM_MODEL  = True      # set True to enable streaming
 # ----------------------------
 
 # ---------- load data ----------
@@ -70,7 +70,17 @@ def ask_ai(prompt: str) -> tuple[str, float]:
                                "prompt": prompt,
                                "stream": STREAM_MODEL},
                          timeout=600)
-    txt = resp.json().get("response", "")
+    if STREAM_MODEL:
+        parts = []
+        for line in resp.iter_lines():
+            if line:
+                data = json.loads(line.decode())
+                if "response" in data:
+                    parts.append(data["response"])
+        txt = "".join(parts)
+    else:
+        txt = resp.json().get("response", "")
+
     return txt.strip(), time.time() - st
 
 def extract_courses(text: str) -> set[str]:
