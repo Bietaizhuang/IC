@@ -1,16 +1,18 @@
-miy@kean.edu,ESL 0303: English as a Second Language I (Speaking)
-miy@kean.edu,ESL 0305: English as a Second Language I (Writing)
-miy@kean.edu,ESL 0403: English as a Second Language II (Speaking)
-miy@kean.edu,ESL 0405: English as a Second Language II (Writing)
-miy@kean.edu,CPS 1231: Foundation of CS
-miy@kean.edu,CPS 2231: Computer Programming
-miy@kean.edu,ENG 1300: English Composition I
-miy@kean.edu,ENG 1430: English Composition II
-miy@kean.edu,GE 1000: Transition to Kean
-miy@kean.edu,CPS 2390: Computer Organization and Architecture
-miy@kean.edu,CPS 3320: Python Programming
-miy@kean.edu,CPS 2232: Data Structure
-miy@kean.edu,ENG 2403: World Literature
-miy@kean.edu,HIST 1062: World History
-miy@kean.edu,COMM 1402: Speech and Communication
-miy@kean.edu,GE 2024: Research and Technology
+miy@kean.edu,ESL 0303: English as a Second Language I (Speaking),A-
+miy@kean.edu,ESL 0305: English as a Second Language I (Writing),A
+miy@kean.edu,ESL 0403: English as a Second Language II (Speaking),B+
+miy@kean.edu,ESL 0405: English as a Second Language II (Writing),B
+miy@kean.edu,CPS 1231: Foundation of CS,A-
+miy@kean.edu,CPS 2231: Computer Programming,B
+miy@kean.edu,CPS 2232: Data Structure,C+
+miy@kean.edu,CPS 2390: Computer Organization and Architecture,B-
+miy@kean.edu,CPS 3320: Python Programming,B+
+miy@kean.edu,ENG 1300: English Composition I,B+
+miy@kean.edu,ENG 1430: English Composition II,B
+miy@kean.edu,ENG 2403: World Literature,A-
+miy@kean.edu,HIST 1062: World History,B+
+miy@kean.edu,COMM 1402: Speech and Communication,B+
+miy@kean.edu,GE 1000: Transition to Kean,A
+miy@kean.edu,GE 2024: Research and Technology,A-
+miy@kean.edu,MATH 2415: Calculus I,A-
+miy@kean.edu,MATH 2416: Calculus II,C
