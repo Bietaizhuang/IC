@@ -14,4 +14,5 @@ miy@kean.edu,HIST 1062: World History,B+
 miy@kean.edu,COMM 1402: Speech and Communication,B+
 miy@kean.edu,GE 1000: Transition to Kean,A
 miy@kean.edu,GE 2024: Research and Technology,A-
-miy@kean.edu,MATH 2415: Calculus II,C
+miy@kean.edu,MATH 2415: Calculus I,A-
+miy@kean.edu,MATH 2416: Calculus II,C
