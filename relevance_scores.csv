@@ -1,101 +1,101 @@
 Question,Mode,#Rec,PlanScore,PersonalScore,Lift,Recall,Latency
-"What elective courses should I choose next semester to strengthen my AI foundation, considering the AI courses I have already taken?",full,8,0.625,0.75,0.125,0.22727272727272727,37.11s
-"What elective courses should I choose next semester to strengthen my AI foundation, considering the AI courses I have already taken?",noTranscript,15,0.7333333333333333,0.8666666666666667,0.13333333333333341,0.5,44.38s
-"What elective courses should I choose next semester to strengthen my AI foundation, considering the AI courses I have already taken?",noPlan,7,0.14285714285714285,0.42857142857142855,0.2857142857142857,0.045454545454545456,33.22s
-"What elective courses should I choose next semester to strengthen my AI foundation, considering the AI courses I have already taken?",question,0,0,0,0,0.0,20.40s
-Which data-science-related electives would be most beneficial if I plan to work in quantitative finance?,full,6,0.3333333333333333,0.3333333333333333,0.0,0.09090909090909091,35.22s
-Which data-science-related electives would be most beneficial if I plan to work in quantitative finance?,noTranscript,7,0.42857142857142855,0.7142857142857143,0.28571428571428575,0.13636363636363635,37.45s
-Which data-science-related electives would be most beneficial if I plan to work in quantitative finance?,noPlan,12,0.0,0.3333333333333333,0.3333333333333333,0.0,33.37s
-Which data-science-related electives would be most beneficial if I plan to work in quantitative finance?,question,1,1.0,1.0,0.0,0.045454545454545456,17.49s
-"If I want to pursue a master’s degree in Cybersecurity, what courses should I prioritize this year?",full,5,0.4,0.6,0.19999999999999996,0.09090909090909091,24.80s
-"If I want to pursue a master’s degree in Cybersecurity, what courses should I prioritize this year?",noTranscript,15,0.5333333333333333,0.6666666666666666,0.1333333333333333,0.36363636363636365,42.42s
-"If I want to pursue a master’s degree in Cybersecurity, what courses should I prioritize this year?",noPlan,6,0.16666666666666666,0.3333333333333333,0.16666666666666666,0.045454545454545456,23.06s
-"If I want to pursue a master’s degree in Cybersecurity, what courses should I prioritize this year?",question,0,0,0,0,0.0,24.61s
-I’m targeting an HCI research internship; which undergraduate courses would make me more competitive?,full,9,0.7777777777777778,0.8888888888888888,0.11111111111111105,0.3181818181818182,31.98s
-I’m targeting an HCI research internship; which undergraduate courses would make me more competitive?,noTranscript,8,0.625,0.75,0.125,0.22727272727272727,37.68s
-I’m targeting an HCI research internship; which undergraduate courses would make me more competitive?,noPlan,15,0.0,0.2,0.2,0.0,32.54s
-I’m targeting an HCI research internship; which undergraduate courses would make me more competitive?,question,0,0,0,0,0.0,19.91s
-Which electives can best prepare me for a Ph.D. track in Machine Learning?,full,14,0.6428571428571429,0.7142857142857143,0.0714285714285714,0.4090909090909091,33.72s
-Which electives can best prepare me for a Ph.D. track in Machine Learning?,noTranscript,6,0.8333333333333334,0.8333333333333334,0.0,0.22727272727272727,27.33s
-Which electives can best prepare me for a Ph.D. track in Machine Learning?,noPlan,15,0.06666666666666667,0.13333333333333333,0.06666666666666667,0.045454545454545456,34.33s
-Which electives can best prepare me for a Ph.D. track in Machine Learning?,question,1,0.0,1.0,1.0,0.0,22.92s
-"Given my current GPA and heavy workload, which relatively lighter courses could help me boost my average?",full,16,0.5,0.6875,0.1875,0.36363636363636365,59.10s
-"Given my current GPA and heavy workload, which relatively lighter courses could help me boost my average?",noTranscript,20,0.45,0.6,0.14999999999999997,0.4090909090909091,76.77s
-"Given my current GPA and heavy workload, which relatively lighter courses could help me boost my average?",noPlan,6,0.16666666666666666,0.16666666666666666,0.0,0.045454545454545456,24.38s
-"Given my current GPA and heavy workload, which relatively lighter courses could help me boost my average?",question,2,0.5,1.0,0.5,0.045454545454545456,21.06s
-What combination of courses this semester would balance difficulty while still keeping me on track to graduate?,full,5,0.6,0.8,0.20000000000000007,0.13636363636363635,39.07s
-What combination of courses this semester would balance difficulty while still keeping me on track to graduate?,noTranscript,18,0.6666666666666666,0.7222222222222222,0.05555555555555558,0.5454545454545454,26.62s
-What combination of courses this semester would balance difficulty while still keeping me on track to graduate?,noPlan,6,0.0,0.3333333333333333,0.3333333333333333,0.0,33.84s
-What combination of courses this semester would balance difficulty while still keeping me on track to graduate?,question,2,0.5,1.0,0.5,0.045454545454545456,12.89s
-I struggled with theory courses last term; which practical courses could help raise my GPA?,full,17,0.23529411764705882,0.4117647058823529,0.1764705882352941,0.18181818181818182,49.15s
-I struggled with theory courses last term; which practical courses could help raise my GPA?,noTranscript,15,0.8,0.8666666666666667,0.06666666666666665,0.5454545454545454,33.81s
-I struggled with theory courses last term; which practical courses could help raise my GPA?,noPlan,8,0.125,0.25,0.125,0.045454545454545456,30.56s
-I struggled with theory courses last term; which practical courses could help raise my GPA?,question,1,1.0,1.0,0.0,0.045454545454545456,21.70s
-"I have mostly taken technical courses so far, and I want to work in product management for tech companies—what courses would give me relevant soft skills?",full,15,0.6,0.6666666666666666,0.06666666666666665,0.4090909090909091,54.67s
-"I have mostly taken technical courses so far, and I want to work in product management for tech companies—what courses would give me relevant soft skills?",noTranscript,9,0.6666666666666666,0.7777777777777778,0.11111111111111116,0.2727272727272727,29.63s
-"I have mostly taken technical courses so far, and I want to work in product management for tech companies—what courses would give me relevant soft skills?",noPlan,1,0.0,1.0,1.0,0.0,16.38s
-"I have mostly taken technical courses so far, and I want to work in product management for tech companies—what courses would give me relevant soft skills?",question,2,0.5,1.0,0.5,0.045454545454545456,31.99s
-Which courses align best with a future career in financial technology (FinTech)?,full,8,0.625,0.875,0.25,0.22727272727272727,34.69s
-Which courses align best with a future career in financial technology (FinTech)?,noTranscript,5,0.8,0.8,0.0,0.18181818181818182,27.78s
-Which courses align best with a future career in financial technology (FinTech)?,noPlan,6,0.16666666666666666,0.5,0.33333333333333337,0.045454545454545456,25.73s
-Which courses align best with a future career in financial technology (FinTech)?,question,1,0.0,1.0,1.0,0.0,10.84s
-"If I aim to become a full-stack web developer, which backend-focused courses should I take next semester, considering I have primarily completed front-end courses?",full,7,0.42857142857142855,0.42857142857142855,0.0,0.13636363636363635,26.35s
-"If I aim to become a full-stack web developer, which backend-focused courses should I take next semester, considering I have primarily completed front-end courses?",noTranscript,3,0.6666666666666666,1.0,0.33333333333333337,0.09090909090909091,30.80s
-"If I aim to become a full-stack web developer, which backend-focused courses should I take next semester, considering I have primarily completed front-end courses?",noPlan,10,0.1,0.3,0.19999999999999998,0.045454545454545456,44.13s
-"If I aim to become a full-stack web developer, which backend-focused courses should I take next semester, considering I have primarily completed front-end courses?",question,1,1.0,1.0,0.0,0.045454545454545456,11.77s
-"Based on my transcript, which remaining general-education courses should I finish first?",full,6,0.5,0.6666666666666666,0.16666666666666663,0.13636363636363635,41.40s
-"Based on my transcript, which remaining general-education courses should I finish first?",noTranscript,11,0.8181818181818182,0.8181818181818182,0.0,0.4090909090909091,17.20s
-"Based on my transcript, which remaining general-education courses should I finish first?",noPlan,5,0.2,0.6,0.39999999999999997,0.045454545454545456,12.87s
-"Based on my transcript, which remaining general-education courses should I finish first?",question,0,0,0,0,0.0,9.00s
-"Which major core courses do I still need to complete before senior year, based on what I have completed so far?",full,10,0.2,0.4,0.2,0.09090909090909091,30.98s
-"Which major core courses do I still need to complete before senior year, based on what I have completed so far?",noTranscript,6,0.3333333333333333,0.5,0.16666666666666669,0.09090909090909091,19.09s
-"Which major core courses do I still need to complete before senior year, based on what I have completed so far?",noPlan,6,0.0,0.16666666666666666,0.16666666666666666,0.0,37.69s
-"Which major core courses do I still need to complete before senior year, based on what I have completed so far?",question,0,0,0,0,0.0,12.58s
-What courses can help me meet the writing-intensive requirement most efficiently?,full,26,0.5,0.5,0.0,0.5909090909090909,43.68s
-What courses can help me meet the writing-intensive requirement most efficiently?,noTranscript,9,0.2222222222222222,0.3333333333333333,0.1111111111111111,0.09090909090909091,42.88s
-What courses can help me meet the writing-intensive requirement most efficiently?,noPlan,7,0.0,0.14285714285714285,0.14285714285714285,0.0,29.73s
-What courses can help me meet the writing-intensive requirement most efficiently?,question,1,1.0,1.0,0.0,0.045454545454545456,18.19s
-"If I plan to take an industrial internship in the spring, which important courses can I shift to the summer term?",full,6,0.6666666666666666,0.6666666666666666,0.0,0.18181818181818182,27.30s
-"If I plan to take an industrial internship in the spring, which important courses can I shift to the summer term?",noTranscript,9,0.5555555555555556,0.6666666666666666,0.11111111111111105,0.22727272727272727,42.30s
-"If I plan to take an industrial internship in the spring, which important courses can I shift to the summer term?",noPlan,5,0.0,0.0,0.0,0.0,22.04s
-"If I plan to take an industrial internship in the spring, which important courses can I shift to the summer term?",question,0,0,0,0,0.0,11.74s
-"Given that some senior electives clash on Tuesday afternoons, and I need to enroll in those advanced electives, what alternative sections or courses could I take?",full,6,0.3333333333333333,0.5,0.16666666666666669,0.09090909090909091,36.22s
-"Given that some senior electives clash on Tuesday afternoons, and I need to enroll in those advanced electives, what alternative sections or courses could I take?",noTranscript,15,0.6,0.6666666666666666,0.06666666666666665,0.4090909090909091,33.88s
-"Given that some senior electives clash on Tuesday afternoons, and I need to enroll in those advanced electives, what alternative sections or courses could I take?",noPlan,21,0.0,0.19047619047619047,0.19047619047619047,0.0,39.77s
-"Given that some senior electives clash on Tuesday afternoons, and I need to enroll in those advanced electives, what alternative sections or courses could I take?",question,2,0.5,1.0,0.5,0.045454545454545456,26.58s
-"Can you recommend courses that combine AI with the arts, considering my background?",full,4,0.25,0.75,0.5,0.045454545454545456,45.52s
-"Can you recommend courses that combine AI with the arts, considering my background?",noTranscript,12,0.5,0.6666666666666666,0.16666666666666663,0.2727272727272727,31.81s
-"Can you recommend courses that combine AI with the arts, considering my background?",noPlan,3,0.3333333333333333,0.6666666666666666,0.3333333333333333,0.045454545454545456,21.90s
-"Can you recommend courses that combine AI with the arts, considering my background?",question,0,0,0,0,0.0,21.03s
-Please review my current transcript and suggest areas where I need improvement.,full,8,0.25,0.25,0.0,0.09090909090909091,32.44s
-Please review my current transcript and suggest areas where I need improvement.,noTranscript,18,0.3888888888888889,0.5,0.1111111111111111,0.3181818181818182,30.37s
-Please review my current transcript and suggest areas where I need improvement.,noPlan,10,0.1,0.5,0.4,0.045454545454545456,32.29s
-Please review my current transcript and suggest areas where I need improvement.,question,0,0,0,0,0.0,21.77s
-"Which interdisciplinary courses would let me apply my accounting knowledge to data analytics, given my accounting minor?",full,11,0.6363636363636364,0.7272727272727273,0.09090909090909094,0.3181818181818182,48.72s
-"Which interdisciplinary courses would let me apply my accounting knowledge to data analytics, given my accounting minor?",noTranscript,10,0.8,0.9,0.09999999999999998,0.36363636363636365,87.58s
-"Which interdisciplinary courses would let me apply my accounting knowledge to data analytics, given my accounting minor?",noPlan,11,0.0,0.36363636363636365,0.36363636363636365,0.0,26.20s
-"Which interdisciplinary courses would let me apply my accounting knowledge to data analytics, given my accounting minor?",question,1,1.0,1.0,0.0,0.045454545454545456,11.96s
-"What capstone options would showcase my strengths while addressing my weaknesses, given my current academic performance?",full,6,0.5,0.6666666666666666,0.16666666666666663,0.13636363636363635,35.44s
-"What capstone options would showcase my strengths while addressing my weaknesses, given my current academic performance?",noTranscript,7,0.5714285714285714,0.7142857142857143,0.1428571428571429,0.18181818181818182,22.40s
-"What capstone options would showcase my strengths while addressing my weaknesses, given my current academic performance?",noPlan,1,0.0,1.0,1.0,0.0,32.93s
-"What capstone options would showcase my strengths while addressing my weaknesses, given my current academic performance?",question,0,0,0,0,0.0,11.75s
-I enjoy collaborative projects—what project-heavy courses should I choose next?,full,3,0.6666666666666666,1.0,0.33333333333333337,0.09090909090909091,26.54s
-I enjoy collaborative projects—what project-heavy courses should I choose next?,noTranscript,7,0.5714285714285714,0.8571428571428571,0.2857142857142857,0.18181818181818182,29.48s
-I enjoy collaborative projects—what project-heavy courses should I choose next?,noPlan,10,0.1,0.5,0.4,0.045454545454545456,23.30s
-I enjoy collaborative projects—what project-heavy courses should I choose next?,question,1,1.0,1.0,0.0,0.045454545454545456,17.29s
-Which online or hybrid courses fit my learning style and schedule?,full,7,0.14285714285714285,0.2857142857142857,0.14285714285714285,0.045454545454545456,39.53s
-Which online or hybrid courses fit my learning style and schedule?,noTranscript,18,0.6111111111111112,0.6111111111111112,0.0,0.5,32.78s
-Which online or hybrid courses fit my learning style and schedule?,noPlan,16,0.0625,0.1875,0.125,0.045454545454545456,47.79s
-Which online or hybrid courses fit my learning style and schedule?,question,1,1.0,1.0,0.0,0.045454545454545456,18.75s
-"If I retake a course I failed, what additional support courses could help ensure success?",full,18,0.5,0.6111111111111112,0.11111111111111116,0.4090909090909091,42.48s
-"If I retake a course I failed, what additional support courses could help ensure success?",noTranscript,9,0.7777777777777778,0.8888888888888888,0.11111111111111105,0.3181818181818182,26.60s
-"If I retake a course I failed, what additional support courses could help ensure success?",noPlan,8,0.125,0.375,0.25,0.045454545454545456,30.00s
-"If I retake a course I failed, what additional support courses could help ensure success?",question,0,0,0,0,0.0,18.14s
-I got C in Calculus II; what should I take next to strengthen my math foundation?,full,3,0.6666666666666666,1.0,0.33333333333333337,0.09090909090909091,15.84s
-I got C in Calculus II; what should I take next to strengthen my math foundation?,noTranscript,6,0.6666666666666666,0.8333333333333334,0.16666666666666674,0.18181818181818182,21.46s
-I got C in Calculus II; what should I take next to strengthen my math foundation?,noPlan,3,0.3333333333333333,0.6666666666666666,0.3333333333333333,0.045454545454545456,32.29s
-I got C in Calculus II; what should I take next to strengthen my math foundation?,question,1,1.0,1.0,0.0,0.045454545454545456,24.42s
-"Given I have completed two AI electives, which new AI-related course would you suggest?",full,5,0.4,0.6,0.19999999999999996,0.09090909090909091,22.86s
-"Given I have completed two AI electives, which new AI-related course would you suggest?",noTranscript,8,0.75,0.875,0.125,0.2727272727272727,28.24s
-"Given I have completed two AI electives, which new AI-related course would you suggest?",noPlan,2,0.5,1.0,0.5,0.045454545454545456,36.56s
-"Given I have completed two AI electives, which new AI-related course would you suggest?",question,0,0,0,0,0.0,7.80s
+"What elective courses should I choose next semester to strengthen my AI foundation, considering the AI courses I have already taken?",full,31,0.3225806451612903,0.45161290322580644,0.12903225806451613,0.45454545454545453,63.31s
+"What elective courses should I choose next semester to strengthen my AI foundation, considering the AI courses I have already taken?",noTranscript,10,0.7,0.8,0.10000000000000009,0.3181818181818182,46.92s
+"What elective courses should I choose next semester to strengthen my AI foundation, considering the AI courses I have already taken?",noPlan,9,0.1111111111111111,0.3333333333333333,0.2222222222222222,0.045454545454545456,34.83s
+"What elective courses should I choose next semester to strengthen my AI foundation, considering the AI courses I have already taken?",question,0,0,0,0,0.0,20.49s
+Which data-science-related electives would be most beneficial if I plan to work in quantitative finance?,full,12,0.5833333333333334,0.6666666666666666,0.08333333333333326,0.3181818181818182,50.48s
+Which data-science-related electives would be most beneficial if I plan to work in quantitative finance?,noTranscript,10,0.7,0.8,0.10000000000000009,0.3181818181818182,29.88s
+Which data-science-related electives would be most beneficial if I plan to work in quantitative finance?,noPlan,8,0.125,0.25,0.125,0.045454545454545456,25.14s
+Which data-science-related electives would be most beneficial if I plan to work in quantitative finance?,question,1,0.0,1.0,1.0,0.0,21.28s
+"If I want to pursue a master’s degree in Cybersecurity, what courses should I prioritize this year?",full,7,0.5714285714285714,0.5714285714285714,0.0,0.18181818181818182,32.31s
+"If I want to pursue a master’s degree in Cybersecurity, what courses should I prioritize this year?",noTranscript,16,0.4375,0.5,0.0625,0.3181818181818182,27.11s
+"If I want to pursue a master’s degree in Cybersecurity, what courses should I prioritize this year?",noPlan,22,0.045454545454545456,0.22727272727272727,0.18181818181818182,0.045454545454545456,40.07s
+"If I want to pursue a master’s degree in Cybersecurity, what courses should I prioritize this year?",question,2,0.5,1.0,0.5,0.045454545454545456,15.87s
+I’m targeting an HCI research internship; which undergraduate courses would make me more competitive?,full,18,0.4444444444444444,0.6111111111111112,0.16666666666666674,0.36363636363636365,62.19s
+I’m targeting an HCI research internship; which undergraduate courses would make me more competitive?,noTranscript,25,0.52,0.64,0.12,0.5909090909090909,42.98s
+I’m targeting an HCI research internship; which undergraduate courses would make me more competitive?,noPlan,11,0.09090909090909091,0.36363636363636365,0.2727272727272727,0.045454545454545456,26.80s
+I’m targeting an HCI research internship; which undergraduate courses would make me more competitive?,question,0,0,0,0,0.0,16.15s
+Which electives can best prepare me for a Ph.D. track in Machine Learning?,full,4,1.0,1.0,0.0,0.18181818181818182,25.93s
+Which electives can best prepare me for a Ph.D. track in Machine Learning?,noTranscript,9,0.8888888888888888,0.8888888888888888,0.0,0.36363636363636365,42.56s
+Which electives can best prepare me for a Ph.D. track in Machine Learning?,noPlan,2,0.5,0.5,0.0,0.045454545454545456,24.20s
+Which electives can best prepare me for a Ph.D. track in Machine Learning?,question,1,1.0,1.0,0.0,0.045454545454545456,29.37s
+"Given my current GPA and heavy workload, which relatively lighter courses could help me boost my average?",full,19,0.47368421052631576,0.5789473684210527,0.10526315789473689,0.4090909090909091,42.85s
+"Given my current GPA and heavy workload, which relatively lighter courses could help me boost my average?",noTranscript,10,0.6,0.7,0.09999999999999998,0.2727272727272727,30.30s
+"Given my current GPA and heavy workload, which relatively lighter courses could help me boost my average?",noPlan,21,0.0,0.19047619047619047,0.19047619047619047,0.0,32.44s
+"Given my current GPA and heavy workload, which relatively lighter courses could help me boost my average?",question,0,0,0,0,0.0,28.49s
+What combination of courses this semester would balance difficulty while still keeping me on track to graduate?,full,7,0.7142857142857143,0.7142857142857143,0.0,0.22727272727272727,33.49s
+What combination of courses this semester would balance difficulty while still keeping me on track to graduate?,noTranscript,5,0.6,0.8,0.20000000000000007,0.13636363636363635,26.21s
+What combination of courses this semester would balance difficulty while still keeping me on track to graduate?,noPlan,7,0.14285714285714285,0.42857142857142855,0.2857142857142857,0.045454545454545456,36.97s
+What combination of courses this semester would balance difficulty while still keeping me on track to graduate?,question,1,1.0,1.0,0.0,0.045454545454545456,26.74s
+I struggled with theory courses last term; which practical courses could help raise my GPA?,full,8,0.75,0.75,0.0,0.2727272727272727,22.06s
+I struggled with theory courses last term; which practical courses could help raise my GPA?,noTranscript,13,0.6923076923076923,0.7692307692307693,0.07692307692307698,0.4090909090909091,30.73s
+I struggled with theory courses last term; which practical courses could help raise my GPA?,noPlan,21,0.047619047619047616,0.23809523809523808,0.19047619047619047,0.045454545454545456,30.69s
+I struggled with theory courses last term; which practical courses could help raise my GPA?,question,1,0.0,1.0,1.0,0.0,38.79s
+"I have mostly taken technical courses so far, and I want to work in product management for tech companies—what courses would give me relevant soft skills?",full,5,0.6,0.6,0.0,0.13636363636363635,45.53s
+"I have mostly taken technical courses so far, and I want to work in product management for tech companies—what courses would give me relevant soft skills?",noTranscript,9,0.5555555555555556,0.6666666666666666,0.11111111111111105,0.22727272727272727,32.61s
+"I have mostly taken technical courses so far, and I want to work in product management for tech companies—what courses would give me relevant soft skills?",noPlan,6,0.16666666666666666,0.3333333333333333,0.16666666666666666,0.045454545454545456,31.16s
+"I have mostly taken technical courses so far, and I want to work in product management for tech companies—what courses would give me relevant soft skills?",question,0,0,0,0,0.0,13.75s
+Which courses align best with a future career in financial technology (FinTech)?,full,14,0.7142857142857143,0.8571428571428571,0.1428571428571428,0.45454545454545453,51.48s
+Which courses align best with a future career in financial technology (FinTech)?,noTranscript,17,0.5294117647058824,0.7058823529411765,0.17647058823529416,0.4090909090909091,39.41s
+Which courses align best with a future career in financial technology (FinTech)?,noPlan,12,0.0,0.25,0.25,0.0,25.31s
+Which courses align best with a future career in financial technology (FinTech)?,question,0,0,0,0,0.0,32.85s
+"If I aim to become a full-stack web developer, which backend-focused courses should I take next semester, considering I have primarily completed front-end courses?",full,7,0.8571428571428571,0.8571428571428571,0.0,0.2727272727272727,35.11s
+"If I aim to become a full-stack web developer, which backend-focused courses should I take next semester, considering I have primarily completed front-end courses?",noTranscript,10,0.6,0.7,0.09999999999999998,0.2727272727272727,36.95s
+"If I aim to become a full-stack web developer, which backend-focused courses should I take next semester, considering I have primarily completed front-end courses?",noPlan,4,0.25,0.75,0.5,0.045454545454545456,22.27s
+"If I aim to become a full-stack web developer, which backend-focused courses should I take next semester, considering I have primarily completed front-end courses?",question,0,0,0,0,0.0,32.81s
+"Based on my transcript, which remaining general-education courses should I finish first?",full,12,0.5,0.5833333333333334,0.08333333333333337,0.2727272727272727,59.30s
+"Based on my transcript, which remaining general-education courses should I finish first?",noTranscript,22,0.5909090909090909,0.6363636363636364,0.045454545454545414,0.5909090909090909,37.25s
+"Based on my transcript, which remaining general-education courses should I finish first?",noPlan,6,0.16666666666666666,0.5,0.33333333333333337,0.045454545454545456,22.47s
+"Based on my transcript, which remaining general-education courses should I finish first?",question,0,0,0,0,0.0,20.69s
+"Which major core courses do I still need to complete before senior year, based on what I have completed so far?",full,13,0.38461538461538464,0.46153846153846156,0.07692307692307693,0.22727272727272727,33.85s
+"Which major core courses do I still need to complete before senior year, based on what I have completed so far?",noTranscript,5,0.6,0.6,0.0,0.13636363636363635,26.91s
+"Which major core courses do I still need to complete before senior year, based on what I have completed so far?",noPlan,14,0.0,0.21428571428571427,0.21428571428571427,0.0,26.79s
+"Which major core courses do I still need to complete before senior year, based on what I have completed so far?",question,1,1.0,1.0,0.0,0.045454545454545456,24.58s
+What courses can help me meet the writing-intensive requirement most efficiently?,full,9,0.5555555555555556,0.6666666666666666,0.11111111111111105,0.22727272727272727,81.59s
+What courses can help me meet the writing-intensive requirement most efficiently?,noTranscript,10,0.5,0.6,0.09999999999999998,0.22727272727272727,39.15s
+What courses can help me meet the writing-intensive requirement most efficiently?,noPlan,9,0.1111111111111111,0.3333333333333333,0.2222222222222222,0.045454545454545456,29.04s
+What courses can help me meet the writing-intensive requirement most efficiently?,question,2,0.5,1.0,0.5,0.045454545454545456,14.83s
+"If I plan to take an industrial internship in the spring, which important courses can I shift to the summer term?",full,14,0.5,0.6428571428571429,0.1428571428571429,0.3181818181818182,82.58s
+"If I plan to take an industrial internship in the spring, which important courses can I shift to the summer term?",noTranscript,15,0.4,0.5333333333333333,0.1333333333333333,0.2727272727272727,41.35s
+"If I plan to take an industrial internship in the spring, which important courses can I shift to the summer term?",noPlan,3,0.3333333333333333,0.3333333333333333,0.0,0.045454545454545456,13.30s
+"If I plan to take an industrial internship in the spring, which important courses can I shift to the summer term?",question,0,0,0,0,0.0,24.68s
+"Given that some senior electives clash on Tuesday afternoons, and I need to enroll in those advanced electives, what alternative sections or courses could I take?",full,6,0.6666666666666666,0.8333333333333334,0.16666666666666674,0.18181818181818182,43.86s
+"Given that some senior electives clash on Tuesday afternoons, and I need to enroll in those advanced electives, what alternative sections or courses could I take?",noTranscript,26,0.4230769230769231,0.5384615384615384,0.11538461538461536,0.5,66.38s
+"Given that some senior electives clash on Tuesday afternoons, and I need to enroll in those advanced electives, what alternative sections or courses could I take?",noPlan,10,0.1,0.1,0.0,0.045454545454545456,21.43s
+"Given that some senior electives clash on Tuesday afternoons, and I need to enroll in those advanced electives, what alternative sections or courses could I take?",question,1,0.0,1.0,1.0,0.0,16.45s
+"Can you recommend courses that combine AI with the arts, considering my background?",full,4,0.5,0.75,0.25,0.09090909090909091,28.43s
+"Can you recommend courses that combine AI with the arts, considering my background?",noTranscript,3,0.3333333333333333,0.6666666666666666,0.3333333333333333,0.045454545454545456,25.72s
+"Can you recommend courses that combine AI with the arts, considering my background?",noPlan,6,0.16666666666666666,0.3333333333333333,0.16666666666666666,0.045454545454545456,27.19s
+"Can you recommend courses that combine AI with the arts, considering my background?",question,0,0,0,0,0.0,25.49s
+Please review my current transcript and suggest areas where I need improvement.,full,14,0.2857142857142857,0.35714285714285715,0.07142857142857145,0.18181818181818182,31.53s
+Please review my current transcript and suggest areas where I need improvement.,noTranscript,14,0.6428571428571429,0.7857142857142857,0.1428571428571428,0.4090909090909091,37.14s
+Please review my current transcript and suggest areas where I need improvement.,noPlan,12,0.08333333333333333,0.3333333333333333,0.25,0.045454545454545456,23.82s
+Please review my current transcript and suggest areas where I need improvement.,question,2,0.5,1.0,0.5,0.045454545454545456,36.09s
+"Which interdisciplinary courses would let me apply my accounting knowledge to data analytics, given my accounting minor?",full,15,0.4,0.6,0.19999999999999996,0.2727272727272727,56.52s
+"Which interdisciplinary courses would let me apply my accounting knowledge to data analytics, given my accounting minor?",noTranscript,18,0.5555555555555556,0.6666666666666666,0.11111111111111105,0.45454545454545453,50.48s
+"Which interdisciplinary courses would let me apply my accounting knowledge to data analytics, given my accounting minor?",noPlan,6,0.16666666666666666,0.3333333333333333,0.16666666666666666,0.045454545454545456,25.84s
+"Which interdisciplinary courses would let me apply my accounting knowledge to data analytics, given my accounting minor?",question,0,0,0,0,0.0,21.01s
+"What capstone options would showcase my strengths while addressing my weaknesses, given my current academic performance?",full,15,0.4666666666666667,0.5333333333333333,0.06666666666666665,0.3181818181818182,37.26s
+"What capstone options would showcase my strengths while addressing my weaknesses, given my current academic performance?",noTranscript,6,0.8333333333333334,0.8333333333333334,0.0,0.22727272727272727,31.74s
+"What capstone options would showcase my strengths while addressing my weaknesses, given my current academic performance?",noPlan,5,0.0,0.0,0.0,0.0,32.67s
+"What capstone options would showcase my strengths while addressing my weaknesses, given my current academic performance?",question,2,0.5,1.0,0.5,0.045454545454545456,22.61s
+I enjoy collaborative projects—what project-heavy courses should I choose next?,full,7,0.5714285714285714,0.5714285714285714,0.0,0.18181818181818182,32.93s
+I enjoy collaborative projects—what project-heavy courses should I choose next?,noTranscript,21,0.5714285714285714,0.6190476190476191,0.04761904761904767,0.5454545454545454,39.62s
+I enjoy collaborative projects—what project-heavy courses should I choose next?,noPlan,3,0.3333333333333333,0.6666666666666666,0.3333333333333333,0.045454545454545456,31.40s
+I enjoy collaborative projects—what project-heavy courses should I choose next?,question,2,0.5,1.0,0.5,0.045454545454545456,27.72s
+Which online or hybrid courses fit my learning style and schedule?,full,14,0.2857142857142857,0.5,0.2142857142857143,0.18181818181818182,39.54s
+Which online or hybrid courses fit my learning style and schedule?,noTranscript,6,0.6666666666666666,0.8333333333333334,0.16666666666666674,0.18181818181818182,36.19s
+Which online or hybrid courses fit my learning style and schedule?,noPlan,5,0.2,0.6,0.39999999999999997,0.045454545454545456,30.16s
+Which online or hybrid courses fit my learning style and schedule?,question,1,0.0,1.0,1.0,0.0,27.14s
+"If I retake a course I failed, what additional support courses could help ensure success?",full,11,0.36363636363636365,0.45454545454545453,0.09090909090909088,0.18181818181818182,36.44s
+"If I retake a course I failed, what additional support courses could help ensure success?",noTranscript,5,0.4,0.8,0.4,0.09090909090909091,28.27s
+"If I retake a course I failed, what additional support courses could help ensure success?",noPlan,5,0.2,0.6,0.39999999999999997,0.045454545454545456,24.56s
+"If I retake a course I failed, what additional support courses could help ensure success?",question,0,0,0,0,0.0,20.72s
+I got C in Calculus II; what should I take next to strengthen my math foundation?,full,13,0.3076923076923077,0.38461538461538464,0.07692307692307693,0.18181818181818182,50.13s
+I got C in Calculus II; what should I take next to strengthen my math foundation?,noTranscript,16,0.6875,0.75,0.0625,0.5,45.51s
+I got C in Calculus II; what should I take next to strengthen my math foundation?,noPlan,7,0.14285714285714285,0.42857142857142855,0.2857142857142857,0.045454545454545456,38.31s
+I got C in Calculus II; what should I take next to strengthen my math foundation?,question,0,0,0,0,0.0,27.21s
+"Given I have completed two AI electives, which new AI-related course would you suggest?",full,6,0.5,0.6666666666666666,0.16666666666666663,0.13636363636363635,25.44s
+"Given I have completed two AI electives, which new AI-related course would you suggest?",noTranscript,10,0.7,0.8,0.10000000000000009,0.3181818181818182,39.18s
+"Given I have completed two AI electives, which new AI-related course would you suggest?",noPlan,9,0.1111111111111111,0.4444444444444444,0.3333333333333333,0.045454545454545456,27.98s
+"Given I have completed two AI electives, which new AI-related course would you suggest?",question,0,0,0,0,0.0,34.33s
