@@ -1,12 +1,6 @@
 """
 Evaluate SmartCourse AI advice quality under 4 context settings.
 
-Changes 2025-07-13
-------------------
-1. Replace "noGrades" mode with "noTranscript" mode (hide all course history).
-2. Require 5-8 courses to boost recall.
-3. summarize(): now prints 95 % CI for Lift as well.
-
 Metrics
 -------
 PlanScore      = (# courses in plan & not taken) / #rec
@@ -18,7 +12,7 @@ Recall         = good(plan) / (plan − taken)
 import re, csv, time, difflib, pathlib, random, statistics, requests, json
 from course_manager import CourseManager
 
-BOOT_ITER = 1000
+BOOT_ITER = 10000
 LOW_GRADE_THRESHOLD = "B-"
 STREAM_MODEL = True
 
@@ -44,12 +38,12 @@ all_codes = {c.split(":")[0].strip(): c for c in all_courses}
 taken_courses = set(mgr.get_student_courses(TEST_STUDENT).keys())
 course_grades = mgr.get_student_courses(TEST_STUDENT)
 
-grade_rank = {g:i for i, g in enumerate(
-    ["A","A-","B+","B","B-","C+","C","D","F"])}
+grade_rank = {g: i for i, g in enumerate(
+    ["A", "A-", "B+", "B", "B-", "C+", "C", "D", "F"])}
 
 def grade_low(c: str) -> bool:
     g = course_grades.get(c)
-    return g is not None and grade_rank.get(g,99) >= grade_rank[LOW_GRADE_THRESHOLD]
+    return g is not None and grade_rank.get(g, 99) >= grade_rank[LOW_GRADE_THRESHOLD]
 
 def ask_ai(prompt: str) -> tuple[str, float]:
     start = time.time()
@@ -78,58 +72,80 @@ def extract_courses(text: str) -> set[str]:
                 found.add(full)
     return found
 
-suffix = (
-    "\n\nOnly recommend courses that appear in the four-year plan shown above."
-    "\n请严格按照以下格式列出 5-8 门课程，每行完整名称，例如：\n"
+# Public suffixes to ensure formatting
+base_suffix = (
+    "\n\nPlease list 5-8 courses strictly in the following format, with the full name on each line, for example:\n"
     "CPS 2232: Data Structure\nMATH 2110: Discrete Structure\n"
 )
 
+# Full suffix for full context mode
+full_suffix = (
+    "\n\nOnly recommend courses that appear in the four-year plan shown above."
+    " Do NOT include any course you have already taken."
+    " Prioritize courses where you scored below B-."
+    + base_suffix
+)
+
+noTranscript_suffix = (
+    "\n\nOnly recommend courses that appear in the four-year plan shown above."
+    " You do NOT have access to the student's transcript;"
+    " it’s OK to suggest courses the student may have already taken."
+    + base_suffix
+)
+
 def build_prompt(mode: str, q: str) -> str:
-    history = "\n".join(f"{c} - {g or 'Not assigned'}" for c, g in course_grades.items())
+    history = "\n".join(f"{c} - {g or 'Not assigned'}"
+                        for c, g in course_grades.items())
     plan_txt = "\n".join(plan_courses)
+
     if mode == "full":
         return (
             f'Student question: "{q}"\n'
             f'My course history:\n{history}\n'
             f'My 4-year plan:\n{plan_txt}\n'
             f'Based on ALL information, recommend courses.'
-            + suffix
+            + full_suffix
         )
     if mode == "noTranscript":
         return (
             f'"{q}"\n'
             f'My 4-year plan:\n{plan_txt}\n'
-            f'Based on plan only, recommend courses.'
-            + suffix
+            'Based on plan only, recommend courses.'
+            + noTranscript_suffix
         )
     if mode == "noPlan":
         return (
             f'"{q}"\n'
             f'My course history:\n{history}\n'
-            f'Based on history only, recommend courses.'
-            + suffix
+            'Based on history only, recommend courses.'
+            + base_suffix
         )
-    # "question" 模式，仅按问题本身
-    return q + suffix
+    return q + base_suffix
 
+# ---------- evaluation ----------
 rows = []
 for q in (l.strip() for l in open(QUESTION_FILE, encoding="utf-8") if l.strip()):
     for mode in ("full", "noTranscript", "noPlan", "question"):
         rep, lat = ask_ai(build_prompt(mode, q))
         recs = extract_courses(rep)
+
         good_plan = {c for c in recs if c in plan_courses and c not in taken_courses}
         good_personal = {
-            c
-            for c in recs
+            c for c in recs
             if c in plan_courses and (c not in taken_courses or grade_low(c))
         }
+
         plan_score = len(good_plan) / len(recs) if recs else 0
         pers_score = len(good_personal) / len(recs) if recs else 0
         lift = pers_score - plan_score
-        recall = len(good_plan) / (len(plan_courses - taken_courses)) if plan_courses - taken_courses else 0
+        recall = (len(good_plan) /
+                  (len(plan_courses - taken_courses))
+                  if plan_courses - taken_courses else 0)
+
         rows.append([q, mode, len(recs), plan_score, pers_score, lift, recall, f"{lat:.2f}s"])
         print(f"[{mode}] {q[:38]}… Rec:{len(recs)} Plan:{plan_score:.3f} Pers:{pers_score:.3f}")
 
+# Save results to CSV
 with open(OUT_CSV, "w", newline="", encoding="utf-8") as f:
     csv.writer(f).writerow(
         ["Question", "Mode", "#Rec", "PlanScore", "PersonalScore", "Lift", "Recall", "Latency"]
@@ -137,6 +153,7 @@ with open(OUT_CSV, "w", newline="", encoding="utf-8") as f:
     csv.writer(f).writerows(rows)
 print(f"Saved → {OUT_CSV}")
 
+# Aggregate results
 grouped = {}
 for *_q, m, _r, ps, prs, lf, rc, _ in rows:
     grouped.setdefault(m, []).append((ps, prs, lf, rc))
